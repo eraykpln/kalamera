@@ -33,10 +33,11 @@
  .svg:nth-child(1) {
      left: 48%;
      animation: raise1 9s linear infinite;
-     animation-delay: -1s;
+     animation-delay: 3s;
      transform: scale(0.9) rotate(199deg);
      z-index: 2;
      filter: blur(-5px);
+     
 }
  .svg:hover{
      opacity: 10%;
@@ -83,7 +84,7 @@
  .svg:nth-child(2) {
      left: 35%;
      animation: raise2 10s linear infinite;
-     animation-delay: -2s;
+     animation-delay: 3s;
      transform: scale(0.35) rotate(147deg);
      z-index: 2;
      filter: blur(-4px);
@@ -97,7 +98,7 @@
  .svg:nth-child(3) {
      left: 15%;
      animation: raise3 8s linear infinite;
-     animation-delay: 0s;
+     animation-delay: 4s;
      transform: scale(0.2) rotate(-237deg);
      z-index: 2;
      filter: blur(-3px);
@@ -111,7 +112,7 @@
  .svg:nth-child(4) {
      left: 58%;
      animation: raise4 12s linear infinite;
-     animation-delay: -3s;
+     animation-delay: 4s;
      transform: scale(0.87) rotate(218deg);
      z-index: 2;
      filter: blur(-2px);
@@ -125,7 +126,7 @@
  .svg:nth-child(5) {
      left: 81%;
      animation: raise5 7s linear infinite;
-     animation-delay: -2s;
+     animation-delay: 5s;
      transform: scale(0.02) rotate(287deg);
      z-index: 2;
      filter: blur(-1px);
@@ -139,7 +140,7 @@
  .svg:nth-child(6) {
      left: -5%;
      animation: raise6 6s linear infinite;
-     animation-delay: -2s;
+     animation-delay: 2s;
      transform: scale(0.05) rotate(199deg);
      z-index: 2;
      filter: blur(0px);
