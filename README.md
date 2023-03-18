@@ -1,2 +1,0 @@
-# kalamera
-website-project
