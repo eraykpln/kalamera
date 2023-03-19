@@ -15883,6 +15883,7 @@ img-comparison-slider:focus{
 {
     max-width: 50px; max-height: 100%;
     display: flex;
+    visibility: visible;
 }
 .dark-mode .light-mode-img{
 height: 1px;
