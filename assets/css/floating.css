@@ -8,6 +8,7 @@
      position: absolute;
      bottom: -100vh;
      transform-style: preserve-3d;
+     width: 20vw;
 }
  .svg:nth-child(1) {
      left: 68%;
@@ -60,7 +61,7 @@
 
  @keyframes raise1 {
      to {
-         bottom: 150vh;
+         bottom: 40vh;
          transform: scale(-0.6) rotate(95deg);
     }
 }
@@ -68,7 +69,7 @@
      left: 35%;
      animation: raise2 10s linear infinite;
      animation-delay: +2s;
-     transform: scale(0.35) rotate(147deg);
+     transform: scale(0.7) rotate(147deg);
      z-index: 2;
      filter: blur(-4px);
 }
@@ -82,28 +83,28 @@
      left: 11%;
      animation: raise3 8s linear infinite;
      animation-delay: 3s;
-     transform: scale(0.1) rotate(-237deg);
+     transform: scale(0.9) rotate(-237deg);
      z-index: 2;
      filter: blur(-3px);
 }
  @keyframes raise3 {
      to {
          bottom: 150vh;
-         transform: scale(0.25) rotate(59deg);
+         transform: scale(0.5) rotate(59deg);
     }
 }
  .svg:nth-child(4) {
      left: 38%;
      animation: raise4 12s linear infinite;
      animation-delay: +4s;
-     transform: scale(0.04) rotate(218deg);
+     transform: scale(0.4) rotate(218deg);
      z-index: 2;
      filter: blur(-2px);
 }
  @keyframes raise4 {
      to {
          bottom: 150vh;
-         transform: scale(0.08) rotate(78deg);
+         transform: scale(0.3) rotate(78deg);
     }
 }
  .svg:nth-child(5) {
@@ -124,7 +125,7 @@
      left: -5%;
      animation: raise6 6s linear infinite;
      animation-delay: +2s;
-     transform: scale(0.05) rotate(199deg);
+     transform: scale(0.) rotate(199deg);
      z-index: 2;
      filter: blur(0px);
 }
@@ -135,7 +136,32 @@
     }
 }
 
-
+.filterDiv{
+ 
+    visibility: hidden;
+    max-height: 0px;
+    max-width: 0px;
+    
+    }
+    .show-filter{
+    
+    visibility: visible;
+    max-height: 100%;
+    max-width: 100%;
+    animation: scalemy 1s ease-in-out;
+    
+    }
+    
+    
+    @keyframes scalemy {
+    0% {
+    transform: scale(0.4);
+    
+    }
+    100% {
+    transform: scale(1);
+    }
+    }
   
 
  
