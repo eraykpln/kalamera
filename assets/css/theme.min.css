@@ -3684,12 +3684,20 @@ textarea.form-control-lg{
     background-clip:border-box;
     border:var(--ar-card-border-width) solid var(--ar-card-border-color);
     border-radius:var(--ar-card-border-radius);
+
+}
+ .swiper-wrapper .card{
     scale: 0.9;
 }
-.card:hover{
+
+.swiper-wrapper .card:hover{
     scale: 1;
     transition: 0.3s;
+    
+
 }
+
+
 .card>hr{
     margin-right:0;
     margin-left:0

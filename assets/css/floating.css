@@ -141,6 +141,8 @@
     visibility: hidden;
     max-height: 0px;
     max-width: 0px;
+    margin: 0;
+    padding: 0;
     
     }
     .show-filter{
@@ -149,6 +151,9 @@
     max-height: 100%;
     max-width: 100%;
     animation: scalemy 1s ease-in-out;
+    padding: 1rem;
+    
+
     
     }
     
