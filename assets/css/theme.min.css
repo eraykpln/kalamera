@@ -14264,7 +14264,13 @@ a.badge{
     }
 }
 .btn-prev,.btn-next{
-    transition:all .25s ease-in-out
+    transition:all .25s ease-in-out;
+   
+    
+}
+.invisible-text{
+    font-size:0px !important;
+    color:transparent;
 }
 .btn-prev>[class^=ai-],.btn-prev>[class*=" ai-"],.btn-next>[class^=ai-],.btn-next>[class*=" ai-"]{
     font-size:1.4em
